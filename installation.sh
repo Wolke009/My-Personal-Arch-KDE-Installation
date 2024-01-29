@@ -25,6 +25,10 @@ makepkg -si
 echo "Installing Discord"
 yay -Syu discord_arch_electron
 
+#Install Librewolf
+echo "Installing Librewolf"
+yay -Syu librewolf-bin
+
 #Installing VSCodium
 echo "Installing VSCodium"
 yay -S vscodium-bin
