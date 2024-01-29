@@ -14,10 +14,7 @@ sudo pacman -S dolphin
 echo "Installing kitty(Terminalemulator)"
 sudo pacman -S kitty
 
-
 #Yay-Installaion
-echo "Installing git"
-sudo pacman -S git
 echo "Installing yay"
 sudo pacman -S --needed base-devel git
 git clone https://aur.archlinux.org/yay.git
