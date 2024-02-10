@@ -13,6 +13,8 @@ echo "Installing Dolphin(Filesystemmanager)"
 sudo pacman --noconfirm -S dolphin
 echo "Installing kitty(Terminalemulator)"
 sudo pacman --noconfirm -S kitty
+echo "Installing bitwarden"
+sudo pacman -S bitwarden
 
 #Yay-Installaion
 echo "Installing yay"
@@ -32,6 +34,14 @@ yay --noconfirm -Syu librewolf-bin
 #Installing VSCodium
 echo "Installing VSCodium"
 yay --noconfirm -S vscodium-bin
+
+#Installing Minecraft
+echo "Installing Minecraft"
+yay --noconfirm -S minecraft-launcher
+
+#Installing Element
+echo "Installing Element"
+yay --noconfirm -S element
 
 #Ending
 echo "Completed"
