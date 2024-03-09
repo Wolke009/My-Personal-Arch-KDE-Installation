@@ -1,5 +1,6 @@
 #!/bin/sh
 #KDE Plasma Installation
+
 echo "Updating the packages"
 sudo pacman --noconfirm -Syu
 echo "Installing plasma"
@@ -14,7 +15,9 @@ sudo pacman --noconfirm -S dolphin
 echo "Installing kitty(Terminalemulator)"
 sudo pacman --noconfirm -S kitty
 echo "Installing bitwarden"
-sudo pacman -S bitwarden
+sudo pacman --noconfirm -S bitwarden
+echo "Installing pacdef"
+sudo pacman --noconfirm -S pacdef 
 
 #Yay-Installaion
 echo "Installing yay"
@@ -34,6 +37,10 @@ yay --noconfirm -Syu librewolf-bin
 #Installing VSCodium
 echo "Installing VSCodium"
 yay --noconfirm -S vscodium-bin
+
+#Installing asdf
+echo "Installing asdf-vm"
+yay --noconfirm -S asdf-vm
 
 #Installing Minecraft
 echo "Installing Minecraft"
