@@ -38,9 +38,12 @@ yay --noconfirm -Syu librewolf-bin
 echo "Installing VSCodium"
 yay --noconfirm -S vscodium-bin
 
+#PHP-Stuff
 #Installing asdf
 echo "Installing asdf-vm"
 yay --noconfirm -S asdf-vm
+asdf plugin add asdf-php https://github.com/asdf-community/asdf-php
+asdf global php latest
 
 #Installing Minecraft
 echo "Installing Minecraft"
