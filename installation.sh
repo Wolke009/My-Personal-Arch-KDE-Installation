@@ -51,7 +51,7 @@ yay --noconfirm -S minecraft-launcher
 
 #Installing Element
 echo "Installing Element"
-yay --noconfirm -S element
+sudo pacman --noconfirm -S element-desktop
 
 #Ending
 echo "Completed"
